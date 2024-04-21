@@ -1,0 +1,62 @@
+body{
+  background-image: url("home.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  font-family: 'Armata';
+}
+
+.container{
+  background-color: rgb(51, 51, 51, 75%);
+  border-style: double;
+  border-color: white;
+  width: auto;
+  border-radius: 8px;
+  padding: 10px;
+  margin: auto auto 5px auto;
+}
+
+.flex-container{
+  display: flex;
+}
+
+
+.my_image{ 
+  position: relative;
+  width: 280px;
+  left: 30px;
+}
+
+.col-2{
+  text-align: center;
+  width: 200px;
+}
+
+#my_info{
+  position: relative;
+  top: 10px;
+  left: 60px;
+}
+
+#information{
+  height: auto;
+}
+
+#description, #proficiency, #education, #navigation{
+  padding: 20px;
+}
+
+a:hover{
+  background-color: lightgray;
+  transition-duration: 0.8s;
+}
+
+a{
+  font-size: 20px;
+  color: turquoise;
+}
+
+
